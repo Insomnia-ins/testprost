@@ -1,0 +1,88 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+:root {
+    --font-family: 'OpenSans', sans-serif;
+}
+body {
+    font-family: var(--font-family);
+    font-weight: 400;
+    background: #1f1f1f;
+    color: #fff;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: ;
+}
+.confirm-form {
+    max-width: 616px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.btn-start{
+	padding-top: 30px;
+}
+.confirm-form-f{
+	max-width: 300px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+.center{
+	text-align: center;
+}
+.custom-btn {
+  width: 120px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid #9275de;
+  font-size: 15px;
+  font-weight: 400;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+ 	color: #9275de;
+  display: none;
+  
+}
+
+/* 1 */
+.btn-1 {
+  transition: all 0.3s ease;
+}
+.btn-1:hover {
+   box-shadow:
+   -7px -7px 20px 0px #282828,
+   -4px -4px 5px 0px #282828,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+}
+
+.confirm-name-dropdown{
+    font-weight: 400;
+    max-width: 300px;
+    font-size: 24px;
+    background: #1f1f1f;
+    border: none;
+    outline: none;
+    -moz-appearance: none;
+	-webkit-appearance: red;
+	color: #fff;
+
+}
+.confirm-name {
+    padding-top: 189px;
+    padding-bottom: 100px;
+    min-height: 1080px;
+    background: ;
+}
